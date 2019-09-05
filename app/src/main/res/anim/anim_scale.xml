@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    属性说明：
+
+        // Scale动画私有属性
+        toXScale : 动画结束后在 X 坐标的大小。
+        toYScale : 动画结束后在 Y 坐标的大小。
+        fromXScale : 动画开始前在 X 坐标的大小。
+        fromYScale : 动画开始前在 Y 坐标的大小。
+        pivotX : 缩放中心点的 X 坐标
+        pivotY : 缩放中心点的 Y 坐标
+
+        // 视图动画公有属性
+        duration ：动画持续的时长，单位是毫秒
+        fillAfter ：动画结束之后是否保持动画的最终状态；true，表示保持动画的最终状态
+        fillBefore ：动画结束之后是否保持动画开始前的状态；true，表示恢复到动画开始前的状态
+        interpolator ：动画插值器。是实现动画不规则运动的一种方式
+        repeatCount ：动画重复的次数。指定动画重复播放的次数，如果你需要无限循环播放，请填写一个小于0的数值，一般写-1
+        repeatMode ：动画重复的Mode，有reverse（反转）和restart（重新开始）两种
+        startOffset ：动画播放延迟时长，就是调用start之后延迟多少时间播放动画，单位是毫秒
+-->
+<scale
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:toXScale="200%"
+    android:toYScale="200%"
+    android:fromXScale="100%"
+    android:fromYScale="100%"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:duration="2000"
+    android:fillAfter="false"
+    android:fillBefore="true"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:repeatCount="-1"
+    android:repeatMode="reverse"
+    android:startOffset="500" />

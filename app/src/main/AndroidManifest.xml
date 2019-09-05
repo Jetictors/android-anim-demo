@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.futures.jetictors.androidanimlearn">
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <activity
+            android:name=".ui.MainActivity"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".ui.frame.FrameAnimActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.tween.TweenActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.property.PropertyActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.canvas.CanvasActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.other.OtherActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.property.ValueAnimatorActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.property.ObjectAnimatorActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name=".ui.tween.TweenAlphaFragment"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.tween.TweenRotateFragment"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.tween.TweenTranslateFragment"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.tween.TweenScaleFragment"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.tween.TweenSetFragment"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.tween.TweenTestFragment"
+            android:screenOrientation="portrait"/>
+
+
+    </application>
+
+</manifest>

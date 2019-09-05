@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    帧动画必须以标签<animation-list>为根标签
+    oneshot : 是否重复。
+              1. false -> 重复执行
+              2. true -> 执行一次
+-->
+<animation-list
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false">
+
+    <!--
+        drawable : 图片资源
+        duration ：执行时间
+    -->
+    <item android:drawable="@android:drawable/ic_dialog_email" android:duration="300"/>
+    <item android:drawable="@android:drawable/ic_dialog_alert" android:duration="300"/>
+    <item android:drawable="@android:drawable/ic_dialog_dialer" android:duration="300"/>
+    <item android:drawable="@android:drawable/ic_dialog_info" android:duration="300"/>
+    <item android:drawable="@android:drawable/ic_dialog_map" android:duration="300"/>
+
+</animation-list>

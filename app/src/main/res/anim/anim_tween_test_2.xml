@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    属性说明：
+
+        // Translate动画私有属性
+        fromXDelta : 动画开始点的 X 轴坐标。有三种表示方式，
+                    一是纯数字，使用绝对位置（比如"50"，表示以当前View左上角坐标加50px作为X坐标）;
+                    二是百分数，相对于控件本身定位（比如"50%"，表示以当前View的左上角加上当前View宽度的50%作为X坐标）；
+                    三是百分数p，相对于父控件定位（比如"50%p"，表示以当前View的左上角加上父控件宽度的50%做为X坐标
+        fromYDelta : 动画开始点的 Y 轴坐标
+        toXDelta : 动画结束点的 X 轴坐标
+        toYDelta :  动画结束点的 Y 轴坐标
+
+        // 视图动画公有属性
+        duration ：动画持续的时长，单位是毫秒
+        fillAfter ：动画结束之后是否保持动画的最终状态；true，表示保持动画的最终状态
+        fillBefore ：动画结束之后是否保持动画开始前的状态；true，表示恢复到动画开始前的状态
+        interpolator ：动画插值器。是实现动画不规则运动的一种方式
+        repeatCount ：动画重复的次数。指定动画重复播放的次数，如果你需要无限循环播放，请填写一个小于0的数值，一般写-1
+        repeatMode ：动画重复的Mode，有reverse（反转）和restart（重新开始）两种
+        startOffset ：动画播放延迟时长，就是调用start之后延迟多少时间播放动画，单位是毫秒
+-->
+<translate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXDelta="0"
+    android:fromYDelta="0"
+    android:toXDelta="0"
+    android:toYDelta="-20%"
+    android:duration="2000"
+    android:fillAfter="true"
+    android:fillBefore="true"
+    android:interpolator="@android:anim/linear_interpolator"
+    android:repeatCount="0"
+    android:repeatMode="restart" />

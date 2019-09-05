@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Animator</string>
+
+    <string name="tx_main_title">动画例子合集</string>
+
+    <string name="tx_frame">帧动画</string>
+    <string name="tx_tween">补间动画</string>
+    <string name="tx_property">属性动画</string>
+    <string name="tx_canvas">canvas动画</string>
+    <string name="tx_other">其他</string>
+
+    <string name="tx_rotate">旋转</string>
+    <string name="tx_scale">缩放</string>
+    <string name="tx_translate">平移</string>
+    <string name="tx_alpha">渐变</string>
+    <string name="tx_set">组合</string>
+    <string name="tx_test">实例</string>
+
+    <string name="tx_value_anim">ValueAnimator</string>
+    <string name="tx_object_anim">ObjectAnimator</string>
+
+    <string name="tx_start">播放</string>
+    <string name="tx_stop">结束</string>
+
+</resources>
