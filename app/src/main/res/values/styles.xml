@@ -14,15 +14,12 @@
     </style>
 
     <style name="CommonBtnStyle">
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:paddingBottom">6dp</item>
-        <item name="android:paddingTop">6dp</item>
-        <item name="android:paddingLeft">24dp</item>
-        <item name="android:paddingRight">24dp</item>
-        <item name="android:gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_margin">12dp</item>
         <item name="android:background">@drawable/comm_btn_selector</item>
-        <item name="android:textSize">15sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:textColor">@color/colorAccent</item>
     </style>
 

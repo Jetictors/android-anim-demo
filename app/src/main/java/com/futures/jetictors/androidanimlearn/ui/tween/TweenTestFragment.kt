@@ -1,5 +1,6 @@
 package com.futures.jetictors.androidanimlearn.ui.tween
 
+import android.view.animation.AlphaAnimation
 import android.view.animation.AnimationUtils
 import android.view.animation.TranslateAnimation
 import com.futures.jetictors.androidanimlearn.R
@@ -17,6 +18,7 @@ class TweenTestFragment : BaseFragment(){
 
     private lateinit var mTranslateAnimation1 : TranslateAnimation
     private lateinit var mTranslateAnimation2 : TranslateAnimation
+    private lateinit var mAlphaAnimation : AlphaAnimation
 
     override fun getResLayout(): Int {
         return R.layout.frag_tween_test
@@ -26,6 +28,7 @@ class TweenTestFragment : BaseFragment(){
 
         mTranslateAnimation1 = AnimationUtils.loadAnimation(mContext, R.anim.anim_tween_test_1) as TranslateAnimation
         mTranslateAnimation2 = AnimationUtils.loadAnimation(mContext, R.anim.anim_tween_test_2) as TranslateAnimation
+        mAlphaAnimation = AnimationUtils.loadAnimation(mContext, R.anim.anim_tween_test_3) as AlphaAnimation
 
         initListener()
     }
@@ -35,6 +38,7 @@ class TweenTestFragment : BaseFragment(){
         this.btn_start.setOnClickListener{
             this.iv_test_top.startAnimation(mTranslateAnimation1)
             this.iv_test_bottom.startAnimation(mTranslateAnimation2)
+            this.iv_test_center.startAnimation(mAlphaAnimation)
         }
 
         this.btn_stop.setOnClickListener { stop() }
@@ -43,6 +47,7 @@ class TweenTestFragment : BaseFragment(){
     private fun stop(){
         this.iv_test_top.clearAnimation()
         this.iv_test_bottom.clearAnimation()
+        this.iv_test_center.clearAnimation()
     }
 
     override fun onDestroyView() {

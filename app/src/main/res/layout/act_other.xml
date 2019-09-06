@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/layout_tool_bar"/>
+
+    <TextView
+        android:id="@+id/btn_layout_anim"
+        style="@style/CommonBtnStyle"
+        android:text="@string/tx_layout_anim"
+        android:drawableRight="@drawable/ic_more"/>
+
+    <TextView
+        android:id="@+id/btn_motion_anim"
+        style="@style/CommonBtnStyle"
+        android:text="@string/tx_motion_anim"
+        android:drawableRight="@drawable/ic_more"/>
+
+    <TextView
+        android:id="@+id/btn_activity_anim"
+        style="@style/CommonBtnStyle"
+        android:text="@string/tx_activity_anim"
+        android:drawableRight="@drawable/ic_more"/>
+
+    <TextView
+        android:id="@+id/btn_fragment_anim"
+        style="@style/CommonBtnStyle"
+        android:text="@string/tx_fragment_anim"
+        android:drawableRight="@drawable/ic_more"/>
+
+</LinearLayout>

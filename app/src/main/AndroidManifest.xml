@@ -35,6 +35,14 @@
             android:screenOrientation="portrait"/>
 
         <activity
+            android:name=".ui.property.ValueAnimatorActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.property.ObjectAnimatorActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
             android:name=".ui.canvas.CanvasActivity"
             android:screenOrientation="portrait"/>
 
@@ -43,36 +51,15 @@
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.property.ValueAnimatorActivity"
+            android:name=".ui.other.LayoutAnimActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.property.ObjectAnimatorActivity"
-            android:screenOrientation="portrait"/>
-
-
-        <activity
-            android:name=".ui.tween.TweenAlphaFragment"
+            android:name=".ui.other.TestActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.tween.TweenRotateFragment"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name=".ui.tween.TweenTranslateFragment"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name=".ui.tween.TweenScaleFragment"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name=".ui.tween.TweenSetFragment"
-            android:screenOrientation="portrait"/>
-
-        <activity
-            android:name=".ui.tween.TweenTestFragment"
+            android:name=".ui.other.TestFragmentAnimActivity"
             android:screenOrientation="portrait"/>
 
 

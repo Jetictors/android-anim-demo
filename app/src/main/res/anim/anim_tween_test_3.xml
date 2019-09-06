@@ -20,15 +20,12 @@
         repeatMode ：动画重复的Mode，有reverse（反转）和restart（重新开始）两种
         startOffset ：动画播放延迟时长，就是调用start之后延迟多少时间播放动画，单位是毫秒
 -->
-<translate
+<alpha
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:fromXDelta="0"
-    android:fromYDelta="0"
-    android:toXDelta="0"
-    android:toYDelta="-15%"
+    android:fromAlpha="0"
+    android:toAlpha="1"
     android:duration="1000"
     android:fillAfter="true"
     android:fillBefore="true"
     android:interpolator="@android:anim/linear_interpolator"
-    android:repeatCount="0"
-    android:repeatMode="restart" />
+    android:startOffset="1000" />

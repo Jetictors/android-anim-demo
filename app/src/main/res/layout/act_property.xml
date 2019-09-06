@@ -9,27 +9,14 @@
 
     <TextView
         android:id="@+id/btn_value"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/CommonBtnStyle"
         android:text="@string/tx_value_anim"
-        android:textSize="16sp"
-        android:textColor="@color/colorAccent"
-        android:padding="16dp"
-        android:drawableRight="@drawable/ic_more"
-        android:background="@drawable/comm_btn_selector"
-        android:layout_margin="12dp"/>
+        android:drawableRight="@drawable/ic_more"/>
 
     <TextView
         android:id="@+id/btn_object"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        style="@style/CommonBtnStyle"
         android:text="@string/tx_object_anim"
-        android:textSize="16sp"
-        android:textColor="@color/colorAccent"
-        android:padding="16dp"
-        android:drawableRight="@drawable/ic_more"
-        android:background="@drawable/comm_btn_selector"
-        android:layout_margin="12dp"/>
-
+        android:drawableRight="@drawable/ic_more"/>
 
 </LinearLayout>
