@@ -35,12 +35,14 @@
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.property.ValueAnimatorActivity"
+            android:name=".ui.property.value.ValueAnimatorActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.property.ObjectAnimatorActivity"
+            android:name=".ui.property.obj.ObjectAnimatorActivity"
             android:screenOrientation="portrait"/>
+
+
 
         <activity
             android:name=".ui.canvas.CanvasActivity"

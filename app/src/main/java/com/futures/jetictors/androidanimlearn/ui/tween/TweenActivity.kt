@@ -29,4 +29,12 @@ class TweenActivity : BaseAnimActivity(){
         return mFragmentList
     }
 
+    override fun getTabName(): Array<String> {
+        return arrayOf(
+                getString(R.string.tx_translate), getString(R.string.tx_rotate),
+                getString(R.string.tx_scale), getString(R.string.tx_alpha),
+                getString(R.string.tx_set), getString(R.string.tx_test)
+        )
+    }
+
 }

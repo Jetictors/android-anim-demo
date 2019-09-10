@@ -10,4 +10,6 @@ package com.futures.jetictors.androidanimlearn.entity
 
 data class MainItem(val drawableId : Int, val title : String)
 
+data class AlphaAndScale(val alpha : Float, val scale : Float)
+
 

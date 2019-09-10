@@ -3,6 +3,7 @@ package com.futures.jetictors.androidanimlearn.ui.tween
 import android.view.animation.Animation
 import android.view.animation.LinearInterpolator
 import android.view.animation.TranslateAnimation
+import com.futures.jetictors.androidanimlearn.base.BaseTweenFragment
 
 
 /**

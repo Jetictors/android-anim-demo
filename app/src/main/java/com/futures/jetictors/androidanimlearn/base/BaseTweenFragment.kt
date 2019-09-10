@@ -1,9 +1,8 @@
-package com.futures.jetictors.androidanimlearn.ui.tween
+package com.futures.jetictors.androidanimlearn.base
 
 import android.util.Log
 import android.view.animation.Animation
 import com.futures.jetictors.androidanimlearn.R
-import com.futures.jetictors.androidanimlearn.base.BaseFragment
 import kotlinx.android.synthetic.main.frag_anim.*
 
 /**

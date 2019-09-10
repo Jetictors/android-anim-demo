@@ -15,7 +15,8 @@
         app:tabTextColor="@android:color/holo_blue_bright"
         app:tabIndicatorColor="@color/colorAccent"
         app:tabIndicatorHeight="2dp"
-        app:tabMode="scrollable"/>
+        app:tabMode="scrollable"
+        app:tabTextAppearance="@style/tabText" />
         
     <android.support.v4.view.ViewPager
         android:id="@+id/vp"

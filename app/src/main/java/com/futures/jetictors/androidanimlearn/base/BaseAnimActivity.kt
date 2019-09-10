@@ -16,13 +16,7 @@ abstract class BaseAnimActivity : BaseActivity(){
 
     private lateinit var mAdapter : CommonAdapter
 
-    private val mTabName : Array<String> by lazy {
-        arrayOf(
-                getString(R.string.tx_translate), getString(R.string.tx_rotate),
-                getString(R.string.tx_scale), getString(R.string.tx_alpha),
-                getString(R.string.tx_set), getString(R.string.tx_test)
-        )
-    }
+    private val mTabName : Array<String> by lazy { getTabName() }
 
     override fun getResLayout(): Int {
         return R.layout.act_common
@@ -35,4 +29,6 @@ abstract class BaseAnimActivity : BaseActivity(){
     }
 
     abstract fun getFragmentList() : List<Fragment>
+
+    abstract fun getTabName() : Array<String>
 }

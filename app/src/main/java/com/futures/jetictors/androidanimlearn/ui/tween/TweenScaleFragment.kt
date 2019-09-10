@@ -1,6 +1,7 @@
 package com.futures.jetictors.androidanimlearn.ui.tween
 
 import android.view.animation.*
+import com.futures.jetictors.androidanimlearn.base.BaseTweenFragment
 
 
 /**
