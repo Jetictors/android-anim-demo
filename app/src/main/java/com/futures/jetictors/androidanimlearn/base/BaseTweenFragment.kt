@@ -4,6 +4,7 @@ import android.util.Log
 import android.view.animation.Animation
 import com.futures.jetictors.androidanimlearn.R
 import kotlinx.android.synthetic.main.frag_anim.*
+import kotlinx.android.synthetic.main.layout_bottom.*
 
 /**
  * Desc           :  anim基类fragment

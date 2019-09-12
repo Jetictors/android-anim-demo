@@ -1,4 +1,4 @@
-package com.futures.jetictors.androidanimlearn.ui.other
+package com.futures.jetictors.androidanimlearn.ui.other.frag
 
 import com.futures.jetictors.androidanimlearn.R
 import com.futures.jetictors.androidanimlearn.base.BaseFragment
@@ -10,10 +10,10 @@ import com.futures.jetictors.androidanimlearn.base.BaseFragment
  * Email          :  zhengxcfutures@gmail.com
  * Version        :  v-1.0.1
  */
-class TestAnimFirstFragment : BaseFragment(){
+class TestAnimSecondFragment : BaseFragment(){
 
     override fun getResLayout(): Int {
-        return R.layout.frag_anim_test_first
+        return R.layout.frag_anim_test_second
     }
 
     override fun initViewAndData() {

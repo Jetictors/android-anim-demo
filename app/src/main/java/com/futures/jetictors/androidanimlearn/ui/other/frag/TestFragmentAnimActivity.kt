@@ -1,10 +1,11 @@
-package com.futures.jetictors.androidanimlearn.ui.other
+package com.futures.jetictors.androidanimlearn.ui.other.frag
 
 import android.support.v4.app.Fragment
 import com.futures.jetictors.androidanimlearn.R
 import com.futures.jetictors.androidanimlearn.base.BaseActivity
 import com.futures.jetictors.androidanimlearn.base.BaseFragment
 import kotlinx.android.synthetic.main.act_fragment_anim.*
+import kotlinx.android.synthetic.main.layout_bottom.*
 
 /**
  * Desc           :  测试fragment转场动画
@@ -30,6 +31,9 @@ class TestFragmentAnimActivity : BaseActivity(){
 
     private fun initView(){
 
+        this.btn_start.text = "First"
+        this.btn_stop.text = "Second"
+
         mFirstFragment = TestAnimFirstFragment()
         mSecondFragment = TestAnimSecondFragment()
 
@@ -42,9 +46,9 @@ class TestFragmentAnimActivity : BaseActivity(){
 
     private fun initListener(){
 
-        this.btn_first.setOnClickListener { changeFragment(mFirstFragment) }
+        this.btn_start.setOnClickListener { changeFragment(mFirstFragment) }
 
-        this.btn_second.setOnClickListener { changeFragment(mSecondFragment)  }
+        this.btn_stop.setOnClickListener { changeFragment(mSecondFragment)  }
     }
 
     private fun changeFragment(fragment : Fragment){

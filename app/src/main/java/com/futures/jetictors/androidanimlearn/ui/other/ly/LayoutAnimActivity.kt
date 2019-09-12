@@ -1,4 +1,4 @@
-package com.futures.jetictors.androidanimlearn.ui.other
+package com.futures.jetictors.androidanimlearn.ui.other.ly
 
 import android.view.LayoutInflater
 import android.view.View

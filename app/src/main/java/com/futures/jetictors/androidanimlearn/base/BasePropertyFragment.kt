@@ -1,12 +1,11 @@
 package com.futures.jetictors.androidanimlearn.base
 
 import android.animation.Animator
-import android.os.Build
-import android.support.annotation.RequiresApi
 import android.util.Log
 import android.widget.ImageView
 import com.futures.jetictors.androidanimlearn.R
 import kotlinx.android.synthetic.main.frag_anim.*
+import kotlinx.android.synthetic.main.layout_bottom.*
 
 /**
  * Desc           :  属性动画基类fragment

@@ -3,6 +3,10 @@ package com.futures.jetictors.androidanimlearn.ui.other
 import android.content.Intent
 import com.futures.jetictors.androidanimlearn.R
 import com.futures.jetictors.androidanimlearn.base.BaseActivity
+import com.futures.jetictors.androidanimlearn.ui.other.act.TestActivity
+import com.futures.jetictors.androidanimlearn.ui.other.frag.TestFragmentAnimActivity
+import com.futures.jetictors.androidanimlearn.ui.other.ly.LayoutAnimActivity
+import com.futures.jetictors.androidanimlearn.ui.other.motion.MotionActivity
 import kotlinx.android.synthetic.main.act_other.*
 
 /**
@@ -31,7 +35,7 @@ class OtherActivity : BaseActivity(){
         }
 
         this.btn_motion_anim.setOnClickListener {
-
+            startActivity(Intent(this, MotionActivity::class.java))
         }
 
         this.btn_activity_anim.setOnClickListener {

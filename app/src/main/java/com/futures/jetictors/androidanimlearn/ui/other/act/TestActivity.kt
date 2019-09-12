@@ -1,4 +1,4 @@
-package com.futures.jetictors.androidanimlearn.ui.other
+package com.futures.jetictors.androidanimlearn.ui.other.act
 
 import com.futures.jetictors.androidanimlearn.R
 import com.futures.jetictors.androidanimlearn.base.BaseActivity

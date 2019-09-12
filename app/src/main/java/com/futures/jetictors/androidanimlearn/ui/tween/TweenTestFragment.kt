@@ -6,6 +6,7 @@ import android.view.animation.TranslateAnimation
 import com.futures.jetictors.androidanimlearn.R
 import com.futures.jetictors.androidanimlearn.base.BaseFragment
 import kotlinx.android.synthetic.main.frag_tween_test.*
+import kotlinx.android.synthetic.main.layout_bottom.*
 
 /**
  * Description    :  视图动画实例

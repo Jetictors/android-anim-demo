@@ -53,17 +53,24 @@
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.other.LayoutAnimActivity"
+            android:name=".ui.other.ly.LayoutAnimActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.other.TestActivity"
+            android:name=".ui.other.act.TestActivity"
             android:screenOrientation="portrait"/>
 
         <activity
-            android:name=".ui.other.TestFragmentAnimActivity"
+            android:name=".ui.other.frag.TestFragmentAnimActivity"
             android:screenOrientation="portrait"/>
 
+        <activity
+            android:name=".ui.other.motion.MotionActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ui.other.motion.MotionFirstActivity"
+            android:screenOrientation="portrait"/>
 
     </application>
 

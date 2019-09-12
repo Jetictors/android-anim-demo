@@ -20,7 +20,7 @@
     <string name="tx_object_anim">ObjectAnimator</string>
 
     <string name="tx_layout_anim">LayoutAnimation</string>
-    <string name="tx_motion_anim">MotionLayout实现动画</string>
+    <string name="tx_motion_anim">MotionLayout实例动画</string>
     <string name="tx_activity_anim">Activity转场动画</string>
     <string name="tx_fragment_anim">Fragment转场动画</string>
 

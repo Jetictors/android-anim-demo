@@ -6,8 +6,10 @@
     android:layout_height="wrap_content">
 
     <TextView
+        android:id="@+id/tv_item"
         style="@style/CommonBtnStyle"
         android:text="@string/tx_layout_anim"
-        android:gravity="center"/>
+        android:gravity="center"
+        android:drawableRight="@drawable/ic_more"/>
 
 </LinearLayout>

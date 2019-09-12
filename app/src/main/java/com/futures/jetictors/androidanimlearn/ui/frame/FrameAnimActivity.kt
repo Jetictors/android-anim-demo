@@ -5,6 +5,7 @@ import android.support.v4.content.ContextCompat
 import com.futures.jetictors.androidanimlearn.R
 import com.futures.jetictors.androidanimlearn.base.BaseActivity
 import kotlinx.android.synthetic.main.frag_anim.*
+import kotlinx.android.synthetic.main.layout_bottom.*
 
 /**
  * Description    :  帧动画实例

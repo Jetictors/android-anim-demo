@@ -27,29 +27,11 @@
         android:src="@mipmap/ic_launcher_round"
         android:layout_centerInParent="true"/>
 
-    <LinearLayout
+    <include
         android:id="@+id/ll_start"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="24dp"
-        android:layout_alignParentBottom="true">
-
-        <TextView
-            android:id="@+id/btn_start"
-            style="@style/CommonBtnStyle"
-            android:text="@string/tx_start"
-            android:layout_weight="1"
-            android:gravity="center"/>
-
-        <TextView
-            android:id="@+id/btn_stop"
-            style="@style/CommonBtnStyle"
-            android:text="@string/tx_stop"
-            android:layout_weight="1"
-            android:layout_marginLeft="24dp"
-            android:gravity="center"/>
-
-    </LinearLayout>
+        layout="@layout/layout_bottom"
+        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
